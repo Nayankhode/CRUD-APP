@@ -1,0 +1,12 @@
+create a new environment
+D:/udemy/youtube/app-crud
+
+pip install virtualenvwrapper-win
+python -m virtualenv .
+.\scripts\activate
+
+django=3.1.7
+pillow # for working with image file
+pip freeze # is used to see what library we have install
+# to get all version to requirements.txt using freeze do
+pip freeze > requirement.txt
